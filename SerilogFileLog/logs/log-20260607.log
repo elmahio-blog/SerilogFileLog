@@ -92,3 +92,38 @@ System.DivideByZeroException: Attempted to divide by zero.
 2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 306.9833ms
 2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
 2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - 500 null application/json; charset=utf-8 311.6665ms
+2026-06-07 12:01:44.989 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-07 12:01:45.138 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-07 12:01:45.139 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-07 12:01:45.139 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-07 12:02:04.830 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/api/Weather - null null
+2026-06-07 12:02:05.108 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-07 12:02:05.124 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-07 12:02:05.274 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Route matched with {action = "Get", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 12:02:05.335 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 12:02:05.341 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Weather endpoint called
+2026-06-07 12:02:05.347 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Weather endpoint called4
+2026-06-07 12:02:05.370 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.3386ms.
+2026-06-07 12:02:05.411 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-07 12:02:06.922 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) in 1608.9348ms
+2026-06-07 12:02:06.922 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-07 12:02:06.933 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather - 200 null text/plain; charset=utf-8 2124.739ms
+2026-06-07 12:03:40.106 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-07 12:03:40.436 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-07 12:03:40.438 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-07 12:03:40.438 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-07 12:03:40.219 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - null null
+2026-06-07 12:03:41.086 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-07 12:03:41.144 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 12:03:41.335 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 12:03:41.504 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 12:03:41.514 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha GetDivision endpoint called with number: 0
+2026-06-07 12:03:42.163 +05:00 [ERR] PROTAGONIST PROTAGONIST\aliha An error occurred in GetDivision. Input Number: 0
+System.DivideByZeroException: Attempted to divide by zero.
+   at SerilogFileLog.Controllers.WeatherController.GetDivision(Int32 number) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Controllers\WeatherController.cs:line 29
+2026-06-07 12:03:42.982 +05:00 [ERR] PROTAGONIST PROTAGONIST\aliha Weather endpoint called4
+2026-06-07 12:03:43.016 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1482.7035ms.
+2026-06-07 12:03:43.067 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-07 12:03:43.170 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 1814.1149ms
+2026-06-07 12:03:43.170 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 12:03:43.179 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - 500 null application/json; charset=utf-8 2998.5115ms

@@ -45,3 +45,4 @@ D:\Elmah.io\SerilogFileLog\SerilogFileLog\obj\Debug\net10.0\SerilogFileLog.pdb
 D:\Elmah.io\SerilogFileLog\SerilogFileLog\obj\Debug\net10.0\SerilogFileLog.genruntimeconfig.cache
 D:\Elmah.io\SerilogFileLog\SerilogFileLog\obj\Debug\net10.0\ref\SerilogFileLog.dll
 D:\Elmah.io\SerilogFileLog\SerilogFileLog\bin\Debug\net10.0\Serilog.Enrichers.Environment.dll
+D:\Elmah.io\SerilogFileLog\SerilogFileLog\obj\Debug\net10.0\SerilogFileLog.sourcelink.json

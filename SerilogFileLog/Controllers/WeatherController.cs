@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace SerilogFileLog.Controllers;
 [ApiController]
@@ -11,12 +12,10 @@ public class WeatherController : ControllerBase
     {
         _logger = logger;
     }
-
     [HttpGet]
     public IActionResult Get()
     {
         _logger.LogInformation("Weather endpoint called");
-        
         return Ok("Hello Serilog");
     }
     
