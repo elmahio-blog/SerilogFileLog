@@ -1,0 +1,126 @@
+2026-06-06 13:35:20.450 +05:00 [INF] Now listening on: http://localhost:5085
+2026-06-06 13:35:20.733 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 13:35:20.739 +05:00 [INF] Hosting environment: Development
+2026-06-06 13:35:20.739 +05:00 [INF] Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-06 13:35:43.621 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-06 13:35:44.473 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 890.2782ms
+2026-06-06 13:35:44.605 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-06 13:35:44.605 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-06 13:35:44.623 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-06 13:35:44.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-06 13:35:44.665 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 1.5634ms
+2026-06-06 13:35:44.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-06 13:35:44.755 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 131.9697ms
+2026-06-06 13:35:44.755 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 155.4772ms
+2026-06-06 13:35:44.758 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 89.9241ms
+2026-06-06 13:35:44.786 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 181.5789ms
+2026-06-06 13:35:46.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - null null
+2026-06-06 13:35:46.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-06 13:35:46.741 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 0.5202ms
+2026-06-06 13:35:46.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 294.8712ms
+2026-06-06 13:35:51.530 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/api/Weather - null null
+2026-06-06 13:35:51.555 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-06-06 13:35:51.579 +05:00 [INF] Executing endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-06 13:35:51.644 +05:00 [INF] Route matched with {action = "Get", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-06 13:35:51.694 +05:00 [INF] Executing action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) - Validation state: "Valid"
+2026-06-06 13:35:51.699 +05:00 [INF] Weather endpoint called
+2026-06-06 13:35:51.720 +05:00 [INF] Executed action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4ms.
+2026-06-06 13:35:51.762 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-06 13:35:51.788 +05:00 [INF] Executed action SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) in 124.4376ms
+2026-06-06 13:35:51.789 +05:00 [INF] Executed endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-06 13:35:51.796 +05:00 [INF] HTTP GET /api/Weather responded 200 in 246.1705 ms
+2026-06-06 13:35:51.813 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/api/Weather - 200 null text/plain; charset=utf-8 282.9449ms
+2026-06-06 14:31:30.510 +05:00 [INF] Now listening on: http://localhost:5085
+2026-06-06 14:31:30.580 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 14:31:30.581 +05:00 [INF] Hosting environment: Development
+2026-06-06 14:31:30.581 +05:00 [INF] Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-06 14:31:40.788 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-06 14:31:43.250 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 200 null text/html;charset=utf-8 2473.1472ms
+2026-06-06 14:31:43.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-06 14:31:43.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-06 14:31:43.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-06 14:31:43.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-06 14:31:43.370 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-06 14:31:43.373 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 200 null application/javascript;charset=utf-8 6.7596ms
+2026-06-06 14:31:43.446 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 79.9099ms
+2026-06-06 14:31:43.446 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 75.8038ms
+2026-06-06 14:31:43.447 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 81.7431ms
+2026-06-06 14:31:43.449 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 82.3348ms
+2026-06-06 14:31:43.917 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - null null
+2026-06-06 14:31:43.922 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-06-06 14:31:43.922 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - 404 0 null 5.5524ms
+2026-06-06 14:31:43.929 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5085/swagger/v1/swagger.json, Response status code: 404
+2026-06-06 14:31:43.995 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-06 14:31:43.997 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 1.781ms
+2026-06-06 14:31:52.369 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-06 14:31:52.370 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 1.248ms
+2026-06-06 14:31:52.438 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-06 14:31:52.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 0.3921ms
+2026-06-06 14:31:52.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-06 14:31:52.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-06 14:31:52.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 0.2072ms
+2026-06-06 14:31:52.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 0.1844ms
+2026-06-06 14:31:52.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-06 14:31:52.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-06 14:31:52.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 0.1588ms
+2026-06-06 14:31:52.470 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 22.8138ms
+2026-06-06 14:31:52.662 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - null null
+2026-06-06 14:31:52.664 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - 404 0 null 2.0703ms
+2026-06-06 14:31:52.664 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5085/swagger/v1/swagger.json, Response status code: 404
+2026-06-06 14:31:52.699 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-06 14:31:52.699 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 0.3242ms
+2026-06-06 14:32:53.268 +05:00 [INF] Now listening on: http://localhost:5085
+2026-06-06 14:32:53.319 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 14:32:53.320 +05:00 [INF] Hosting environment: Development
+2026-06-06 14:32:53.320 +05:00 [INF] Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-06 14:33:31.550 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-06 14:33:31.924 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 379.9304ms
+2026-06-06 14:33:32.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-06 14:33:32.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-06 14:33:32.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-06 14:33:32.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-06 14:33:32.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-06 14:33:32.014 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 3.6078ms
+2026-06-06 14:33:32.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 69.0792ms
+2026-06-06 14:33:32.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 83.0484ms
+2026-06-06 14:33:32.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 68.9492ms
+2026-06-06 14:33:32.089 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 85.0518ms
+2026-06-06 14:33:32.485 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - null null
+2026-06-06 14:33:32.528 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-06-06 14:33:32.529 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/v1/swagger.json - 404 0 null 49.0232ms
+2026-06-06 14:33:32.530 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-06 14:33:32.531 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 1.5036ms
+2026-06-06 14:33:32.548 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5085/swagger/v1/swagger.json, Response status code: 404
+2026-06-06 15:36:14.617 +05:00 [INF] Now listening on: http://localhost:5085
+2026-06-06 15:36:14.692 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 15:36:14.693 +05:00 [INF] Hosting environment: Development
+2026-06-06 15:36:14.693 +05:00 [INF] Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-06 15:37:12.326 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-06 15:37:13.159 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 876.0527ms
+2026-06-06 15:37:13.260 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-06 15:37:13.307 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-06 15:37:13.313 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-06 15:37:13.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-06 15:37:13.404 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-06 15:37:13.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 200 null application/javascript;charset=utf-8 53.0501ms
+2026-06-06 15:37:13.462 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 149.2493ms
+2026-06-06 15:37:13.466 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 68.9526ms
+2026-06-06 15:37:13.468 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 160.521ms
+2026-06-06 15:37:13.472 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 214.3798ms
+2026-06-06 15:37:13.952 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-06 15:37:13.967 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-06 15:37:13.969 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 1.2128ms
+2026-06-06 15:37:13.986 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-06-06 15:37:14.053 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-06 15:37:15.855 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-06 15:37:15.879 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 1929.2226ms
+2026-06-06 15:37:20.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/api/Weather - null null
+2026-06-06 15:37:20.553 +05:00 [INF] Executing endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-06 15:37:20.704 +05:00 [INF] Route matched with {action = "Get", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-06 15:37:20.746 +05:00 [INF] Executing action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) - Validation state: "Valid"
+2026-06-06 15:37:20.751 +05:00 [INF] Weather endpoint called
+2026-06-06 15:37:20.769 +05:00 [INF] Executed action method SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.5985ms.
+2026-06-06 15:37:20.826 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-06 15:37:20.891 +05:00 [INF] Executed action SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog) in 158.3357ms
+2026-06-06 15:37:20.892 +05:00 [INF] Executed endpoint 'SerilogFileLog.Controllers.WeatherController.Get (SerilogFileLog)'
+2026-06-06 15:37:20.892 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/api/Weather - 200 null text/plain; charset=utf-8 349.8353ms

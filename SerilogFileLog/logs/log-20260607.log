@@ -1,0 +1,94 @@
+2026-06-07 10:30:13.545 +05:00 [INF] Now listening on: http://localhost:5085
+2026-06-07 10:30:13.684 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 10:30:13.685 +05:00 [INF] Hosting environment: Development
+2026-06-07 10:30:13.685 +05:00 [INF] Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-07 10:33:52.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-07 10:33:53.801 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 1190.8033ms
+2026-06-07 10:33:53.906 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-07 10:33:53.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-07 10:33:53.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-07 10:33:53.949 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 43.871ms
+2026-06-07 10:33:53.950 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-07 10:33:53.978 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 10:33:54.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 72.8253ms
+2026-06-07 10:33:54.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 44.2293ms
+2026-06-07 10:33:54.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 115.1358ms
+2026-06-07 10:33:54.026 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 134.94ms
+2026-06-07 10:33:54.471 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-07 10:33:54.518 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-07 10:33:54.518 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 0.5019ms
+2026-06-07 10:33:54.534 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-06-07 10:33:54.559 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 10:33:55.060 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 10:33:55.068 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 597.5392ms
+2026-06-07 10:34:01.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=4 - null null
+2026-06-07 10:34:01.182 +05:00 [INF] Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:34:01.282 +05:00 [INF] Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 10:34:01.354 +05:00 [INF] Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 10:34:01.357 +05:00 [INF] GetDivision endpoint called with number: 4
+2026-06-07 10:34:01.358 +05:00 [INF] Division completed successfully. Result: 2
+2026-06-07 10:34:01.371 +05:00 [INF] Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1386ms.
+2026-06-07 10:34:01.395 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-07 10:34:01.453 +05:00 [INF] Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 154.9707ms
+2026-06-07 10:34:01.454 +05:00 [INF] Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:34:01.454 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=4 - 200 null application/json; charset=utf-8 275.9635ms
+2026-06-07 10:34:04.479 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - null null
+2026-06-07 10:34:04.479 +05:00 [INF] Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:34:04.480 +05:00 [INF] Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 10:34:04.481 +05:00 [INF] Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 10:34:04.481 +05:00 [INF] GetDivision endpoint called with number: 0
+2026-06-07 10:34:04.779 +05:00 [ERR] An error occurred in GetDivision. Input Number: 0
+System.DivideByZeroException: Attempted to divide by zero.
+   at SerilogFileLog.Controllers.WeatherController.GetDivision(Int32 number) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Controllers\WeatherController.cs:line 30
+2026-06-07 10:34:04.824 +05:00 [INF] Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 342.3168ms.
+2026-06-07 10:34:04.825 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-07 10:34:04.839 +05:00 [INF] Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 358.773ms
+2026-06-07 10:34:04.839 +05:00 [INF] Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:34:04.839 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - 500 null application/json; charset=utf-8 360.8955ms
+2026-06-07 10:45:56.844 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-07 10:45:56.921 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-07 10:45:56.922 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-07 10:45:56.922 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-07 10:46:49.658 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-07 10:46:50.182 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 542.9658ms
+2026-06-07 10:46:50.281 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-07 10:46:50.281 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-07 10:46:50.281 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 10:46:50.281 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-07 10:46:50.281 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-07 10:46:50.286 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 3.9958ms
+2026-06-07 10:46:50.356 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 79.8442ms
+2026-06-07 10:46:50.356 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 84.807ms
+2026-06-07 10:46:50.356 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 82.0463ms
+2026-06-07 10:46:50.356 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 75.8504ms
+2026-06-07 10:46:50.840 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-07 10:46:50.841 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-07 10:46:50.843 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 2.0574ms
+2026-06-07 10:46:50.855 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-07 10:46:50.864 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 10:46:51.303 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 10:46:51.310 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 470.1768ms
+2026-06-07 10:47:15.826 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=4 - null null
+2026-06-07 10:47:15.832 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:47:15.926 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 10:47:15.977 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 10:47:15.981 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha GetDivision endpoint called with number: 4
+2026-06-07 10:47:15.981 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Division completed successfully. Result: 2
+2026-06-07 10:47:15.987 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.4574ms.
+2026-06-07 10:47:16.006 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-07 10:47:16.045 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 112.652ms
+2026-06-07 10:47:16.045 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:47:16.046 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=4 - 200 null application/json; charset=utf-8 220.2429ms
+2026-06-07 10:47:19.927 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - null null
+2026-06-07 10:47:19.928 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:47:19.930 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-07 10:47:19.931 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-07 10:47:19.932 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha GetDivision endpoint called with number: 0
+2026-06-07 10:47:20.168 +05:00 [ERR] PROTAGONIST PROTAGONIST\aliha An error occurred in GetDivision. Input Number: 0
+System.DivideByZeroException: Attempted to divide by zero.
+   at SerilogFileLog.Controllers.WeatherController.GetDivision(Int32 number) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Controllers\WeatherController.cs:line 30
+2026-06-07 10:47:20.229 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 297.5805ms.
+2026-06-07 10:47:20.231 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 306.9833ms
+2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-07 10:47:20.237 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=0 - 500 null application/json; charset=utf-8 311.6665ms
