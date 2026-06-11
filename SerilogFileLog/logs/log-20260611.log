@@ -1,0 +1,128 @@
+2026-06-11 13:57:28.427 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 13:57:33.293 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-11 13:57:33.302 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-11 13:57:33.303 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-11 13:57:33.303 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-11 13:57:54.089 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger - null null
+2026-06-11 13:57:54.222 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger - 301 0 null 153.0817ms
+2026-06-11 13:57:54.234 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-11 13:57:54.559 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 200 null text/html;charset=utf-8 324.5337ms
+2026-06-11 13:57:54.629 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-11 13:57:54.630 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-11 13:57:54.639 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-11 13:57:54.692 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 200 null application/javascript;charset=utf-8 52.5128ms
+2026-06-11 13:57:54.692 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-11 13:57:54.692 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-11 13:57:54.752 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 200 152 text/css 122.2508ms
+2026-06-11 13:57:54.752 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 200 26499 text/css 59.3452ms
+2026-06-11 13:57:54.880 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 188.6465ms
+2026-06-11 13:57:54.879 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 200 418599 text/javascript 248.4797ms
+2026-06-11 13:57:55.550 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-11 13:57:55.608 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-11 13:57:55.617 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 13:57:56.270 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 13:57:56.270 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 720.2875ms
+2026-06-11 13:59:26.679 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 13:59:27.874 +05:00 [FTL] PROTAGONIST PROTAGONIST\aliha An unhandled exception occurred during startup
+System.Exception: a startup error
+   at Program.<Main>$(String[] args) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Program.cs:line 55
+2026-06-07 14:00:59.899 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:01:00.872 +05:00 [FTL] PROTAGONIST PROTAGONIST\aliha An unhandled exception occurred during startup
+System.Exception: a startup error
+   at Program.<Main>$(String[] args) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Program.cs:line 55
+2026-06-11 14:09:04.154 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:09:06.633 +05:00 [FTL] PROTAGONIST PROTAGONIST\aliha An unhandled exception occurred during startup
+System.Exception: a startup error
+   at Program.<Main>$(String[] args) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Program.cs:line 55
+2026-06-11 14:09:36.259 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:09:37.329 +05:00 [FTL] PROTAGONIST PROTAGONIST\aliha An unhandled exception occurred during startup
+System.Exception: a startup error
+   at Program.<Main>$(String[] args) in D:\Elmah.io\SerilogFileLog\SerilogFileLog\Program.cs:line 55
+2026-06-11 14:10:20.498 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:10:22.900 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-11 14:10:22.912 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-11 14:10:22.912 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-11 14:10:22.913 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-11 14:10:35.059 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-11 14:10:36.143 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 1101.9418ms
+2026-06-11 14:10:36.298 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-11 14:10:36.310 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-11 14:10:36.310 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-11 14:10:36.316 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-11 14:10:36.318 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 24.3875ms
+2026-06-11 14:10:36.321 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-11 14:10:36.541 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 231.4657ms
+2026-06-11 14:10:36.541 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 220.6277ms
+2026-06-11 14:10:36.542 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 225.9745ms
+2026-06-11 14:10:36.563 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 253.6319ms
+2026-06-11 14:10:37.469 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-11 14:10:37.511 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-11 14:10:37.564 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:10:37.586 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-11 14:10:37.606 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 200 628 image/png 20.4103ms
+2026-06-11 14:10:38.991 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:10:38.998 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 1529.8609ms
+2026-06-11 14:42:46.747 +05:00 [INF] PROTAGONIST  Starting up!
+2026-06-11 14:42:49.769 +05:00 [INF] PROTAGONIST  Now listening on: http://localhost:5085
+2026-06-11 14:42:49.782 +05:00 [INF] PROTAGONIST  Application started. Press Ctrl+C to shut down.
+2026-06-11 14:42:49.782 +05:00 [INF] PROTAGONIST  Hosting environment: Development
+2026-06-11 14:42:49.782 +05:00 [INF] PROTAGONIST  Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-11 14:45:10.230 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:45:11.500 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-11 14:45:11.508 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-11 14:45:11.509 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-11 14:45:11.509 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-11 14:45:23.399 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-11 14:45:24.303 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 877.2632ms
+2026-06-11 14:45:24.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-11 14:45:24.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-11 14:45:24.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-11 14:45:24.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-11 14:45:24.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-11 14:45:24.631 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 6.7848ms
+2026-06-11 14:45:24.914 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 289.6119ms
+2026-06-11 14:45:24.914 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 328.9104ms
+2026-06-11 14:45:24.915 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 291.7366ms
+2026-06-11 14:45:24.916 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 331.8702ms
+2026-06-11 14:45:25.450 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-11 14:45:25.450 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-11 14:45:25.453 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 2.8344ms
+2026-06-11 14:45:25.483 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-11 14:45:25.589 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:45:26.388 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:45:26.414 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 964.1501ms
+2026-06-11 14:46:30.981 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Starting up!
+2026-06-11 14:46:32.608 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Now listening on: http://localhost:5085
+2026-06-11 14:46:32.622 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Application started. Press Ctrl+C to shut down.
+2026-06-11 14:46:32.623 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Hosting environment: Development
+2026-06-11 14:46:32.623 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Content root path: D:\Elmah.io\SerilogFileLog\SerilogFileLog
+2026-06-11 14:46:51.289 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.html - null null
+2026-06-11 14:46:52.215 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.html - 304 null null 967.1864ms
+2026-06-11 14:46:52.434 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.css - null null
+2026-06-11 14:46:52.434 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - null null
+2026-06-11 14:46:52.498 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - null null
+2026-06-11 14:46:52.550 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui.css - 304 null null 120.4155ms
+2026-06-11 14:46:52.550 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-bundle.js - 304 null null 50.9945ms
+2026-06-11 14:46:52.557 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.css - 304 null null 128.0511ms
+2026-06-11 14:46:52.667 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-11 14:46:52.671 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/index.js - null null
+2026-06-11 14:46:52.672 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/index.js - 304 null null 0.9224ms
+2026-06-11 14:46:52.673 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/swagger-ui-standalone-preset.js - 304 null null 6.7323ms
+2026-06-11 14:46:54.061 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/openapi/v1.json - null null
+2026-06-11 14:46:54.071 +05:00 [WRN] PROTAGONIST PROTAGONIST\aliha Failed to determine the https port for redirect.
+2026-06-11 14:46:54.078 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:46:54.235 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - null null
+2026-06-11 14:46:54.236 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/swagger/favicon-32x32.png - 304 null null 0.7485ms
+2026-06-11 14:46:54.596 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 14:46:54.605 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/openapi/v1.json - 200 null application/json;charset=utf-8 544.3511ms
+2026-06-11 14:48:03.413 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request starting HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=7 - null null
+2026-06-11 14:48:03.416 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-11 14:48:03.543 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Route matched with {action = "GetDivision", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivision(Int32) on controller SerilogFileLog.Controllers.WeatherController (SerilogFileLog).
+2026-06-11 14:48:03.611 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) - Validation state: "Valid"
+2026-06-11 14:48:03.614 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha GetDivision endpoint called with number: 7
+2026-06-11 14:48:03.614 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Division completed successfully. Result: 1
+2026-06-11 14:48:03.626 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action method SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.9083ms.
+2026-06-11 14:48:03.654 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-11 14:48:03.726 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed action SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog) in 165.1038ms
+2026-06-11 14:48:03.727 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Executed endpoint 'SerilogFileLog.Controllers.WeatherController.GetDivision (SerilogFileLog)'
+2026-06-11 14:48:03.727 +05:00 [INF] PROTAGONIST PROTAGONIST\aliha Request finished HTTP/1.1 GET http://localhost:5085/api/Weather/GetDivision?number=7 - 200 null application/json; charset=utf-8 314.9078ms
