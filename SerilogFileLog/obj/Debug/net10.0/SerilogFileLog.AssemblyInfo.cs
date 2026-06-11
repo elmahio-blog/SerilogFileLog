@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SerilogFileLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2705a0b3ae37785977508019d0dc3cb67f3d7ccc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99bb7e258a636292b07c85d4b003ffe4be8762c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SerilogFileLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SerilogFileLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
